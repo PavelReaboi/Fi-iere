@@ -11,7 +11,7 @@ for i in range(0, len(vo)):
 		exit.append(vo[i])
 print(len(exit))
 print(exit)
-f=open('//storage/emulated/0/Download/Python fisiere/test.txt', 'a')
+f=open('//storage/emulated/0/Download/Python fisiere/vocale.txt', 'a')
 f.write(str(exit))
 f.close()
 		
