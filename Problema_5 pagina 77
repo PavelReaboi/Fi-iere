@@ -1,0 +1,17 @@
+f=open('//storage/emulated/0/Download/Python fisiere/test.txt', 'w')
+car=str(input())
+f.write(car)
+f.close()
+f=open('//storage/emulated/0/Download/Python fisiere/test.txt', 'r')
+vo=f.read()
+f.close()
+exit=[]
+for i in range(0, len(vo)):
+	if(vo[i]=='A' or vo[i]=='a' ) or (vo[i]=='E' or vo[i]=='e') or (vo[i]=='O' or vo[i]=='o' ) or (vo[i]=='U' or vo[i]=='u' ) or (vo[i]=='I' or vo[i]=='i' ):
+		exit.append(vo[i])
+print(len(exit))
+print(exit)
+f=open('//storage/emulated/0/Download/Python fisiere/test.txt', 'a')
+f.write(str(exit))
+f.close()
+		
